@@ -8,10 +8,12 @@ import 'package:meditation/pages/admin/schedule.dart';
 import 'package:meditation/pages/admin/yogad.dart';
 import 'package:meditation/pages/user/bottomnav.dart';
 import 'package:meditation/pages/user/homepage.dart';
+import 'package:meditation/pages/user/loginpage.dart';
 import 'package:meditation/pages/user/meditation.dart';
 
 import 'package:meditation/pages/user/profile.dart';
 import 'package:meditation/pages/user/settinguser.dart';
+import 'package:meditation/pages/user/signuppage.dart';
 import 'package:meditation/pages/user/sleepuser.dart';
 import 'package:meditation/pages/user/usersurvey.dart';
 import 'package:meditation/pages/user/yogapage.dart';
@@ -47,7 +49,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Bottomadmin(),
+      home: Signuppage(),
     );
   }
 }
